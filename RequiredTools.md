@@ -20,8 +20,8 @@ For VSCode you will find there are a number of useful extensions. Many of them y
 Node.js and NPM are essential tools for modern web development. You can download and install them from the [official Node.js website](https://nodejs.org/). We recommend using the [package manager
 options](https://nodejs.org/en/download/package-manager) for Windows `fnm` is popular and for linux/mac `npm` is popular. 
 
-For both,
-you may need to open a new terminal window (outside of VS code) between the first step and next steps. 
+> [!WARNING]
+> For both, you may need to open a new terminal window (outside of VS code) between the first step and next steps. 
 
 
 ### Checking Node.js and npm Installation
@@ -67,4 +67,14 @@ curl -fsSL https://deno.land/install.sh | sh
 winget install DenoLand.Deno
 ```
 
-For both you can also use Cargo which involves making sure rust is installed on your system, so more complicated but also works. 
+For windows, macOS, and linux you can also use [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html) which involves making sure rust is installed on your system. 
+
+
+> [!WARNING]
+> Deno has its own managed version of typescript it uses and many of our examples will include using deno to go from typescript to javascript. However, for some projects you may want to install typescript locally by using NPM.
+> ```terminal
+> npm install -g typescript
+> ```
+
+## Python
+A number of our labs will require the use of python. Make sure you have [python installed](https://www.python.org/downloads/). 
