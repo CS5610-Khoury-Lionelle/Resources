@@ -1,5 +1,16 @@
 # Required Tools
 
+- [Required Tools](#required-tools)
+  - [Integrated Development Environment](#integrated-development-environment)
+  - [Node and NPM/FNM](#node-and-npmfnm)
+    - [Checking Node.js and npm Installation](#checking-nodejs-and-npm-installation)
+  - [Deno](#deno)
+    - [Install Deno](#install-deno)
+      - [MacOS/Linux](#macoslinux)
+      - [Windows](#windows)
+  - [Python](#python)
+
+
 The following file contains **REQUIRED** tools you will need to install for this course. While not all of it required immediately, you will need most of them at some point throughout the semester. It is best to install all these the first week, and meet with the TAs and  Instructor if you are unable to get the tool setup. 
 
 ## Integrated Development Environment
