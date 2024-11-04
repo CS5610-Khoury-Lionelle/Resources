@@ -29,7 +29,7 @@ For VSCode you will find there are a number of useful extensions. Many of them y
 ## Node and NPM/FNM
 
 Node.js and NPM are essential tools for modern web development. You can download and install them from the [official Node.js website](https://nodejs.org/). We recommend using the [package manager
-options](https://nodejs.org/en/download/package-manager) for Windows `fnm` is popular and for linux/mac `npm` is popular. 
+options](https://nodejs.org/en/download/package-manager) for Windows `fnm` is popular and for linux/mac `npm` is popular. As of writing this information sheet, `vfox` is a relatively new manager that is cross-platform. It may also be a good one to look into. 
 
 > [!WARNING]
 > For both, you may need to open a new terminal window (outside of VS code) between the first step and next steps. 
@@ -39,23 +39,12 @@ options](https://nodejs.org/en/download/package-manager) for Windows `fnm` is po
 
 To verify if Node.js and npm are installed correctly on your computer, follow these steps:
 
-1. Open your terminal or command prompt. (in VSCode you can open it via )
+1. Open your terminal.
 2. Type `node -v` and press Enter. This command checks the version of Node.js installed. If Node.js is installed correctly, you will see a version number, such as `v22.11.0`.
 3. Type `npm -v` and press Enter. This command checks the version of npm installed. If npm is installed correctly, you will see a version number, such as `10.9.0`.
 
 If you see version numbers for both Node.js and npm, it means they are installed correctly. If not, you may need to install or troubleshoot the installation process.
 
-> [!TIP]
-> To open the terminal in VS Code on both Mac and Windows, follow these steps:
-> On Windows:
-> * Open VS Code.
-> * Go to the menu bar and select View.
-> * Click on Terminal or use the shortcut ``Ctrl + ` ``.
-> 
-> On Mac:
-> * Same instructions but instead use  ``Cmd + ` ``.
-> 
-> The backtick (`` ` ``) is above the next to the `1` on your keyboard)
 
 
 ## Deno
