@@ -5,7 +5,7 @@
   - [Node and NPM/FNM](#node-and-npmfnm)
     - [Checking Node.js and npm Installation](#checking-nodejs-and-npm-installation)
   - [Deno](#deno)
-    - [Install Deno](#install-deno)
+    - [Install Deno and Typescript](#install-deno-and-typescript)
       - [MacOS/Linux](#macoslinux)
       - [Windows](#windows)
   - [Python](#python)
@@ -51,7 +51,7 @@ If you see version numbers for both Node.js and npm, it means they are installed
 
 Deno is an open-source runtime for TypeScript and Javascript. We will be using it as means for free hosting in a number of our examples. With that said, you may also have other options for free hosting - which you will find will give you flexibility. 
 
-### Install Deno
+### Install Deno and Typescript
 
 You should follow the [getting started guide](https://docs.deno.com/runtime/) in particular the [installation guide](https://docs.deno.com/runtime/getting_started/installation/).
 
@@ -71,7 +71,7 @@ For windows, macOS, and linux you can also use [Cargo](https://doc.rust-lang.org
 
 
 > [!WARNING]
-> Deno has its own managed version of typescript it uses and many of our examples will include using deno to go from typescript to javascript. However, for some projects you may want to install typescript locally by using NPM.
+> Deno has its own managed version of typescript it uses and many of our examples will include using deno to go from typescript to javascript. However, for some projects you will want to install typescript locally by using NPM - as you don't always need the full managed solution.
 > ```terminal
 > npm install -g typescript
 > ```
